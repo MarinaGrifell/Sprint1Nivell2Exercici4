@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+    .header{
+      background:url(../img/Activitat\ Flex\ -\ Nivell\ 2\ -\ fons\ capçalera.jpg);
+      height: 270px;
+      background-position: center;
+      background-attachment: contain;
+      background-size: cover;
+      width: 100% ;
+      display: flex;
+      
+    }
+           .menu{
+           background:transparent;
+           display: flex;
+           font-family: 'Roboto', sans-serif;
+           }
+            .menu :hover{
+                color: rgb(221, 182, 131);
+            }
+
+           .logo{
+            background:transparent;
+            margin-top: -32px;
+            height: 70px;
+            width: 80px;
+           }
+           .nav{
+            background:transparent;
+            list-style:none;
+            display:flex;
+
+           }
+            .nav a{
+            color:black;
+            font-size: 15px;
+            padding:0 1px;
+            }
+            .nav a :hover{
+                color:burlywood;
+            }
+           .social{
+               flex: 1 1 auto;
+           }
+            .social a{
+            color: black;
+            }
+.section{
+    background: #000;
+    display: flex;
+}
+.footer{
+    background: #000;
+}
+  
+.textPrincipal{
+    background-color:rgb(202, 202, 202);
+    opacity: 40%;
+    display: flex;
+    width: 180%;
+    height: 100px;
+    margin-right: 150px;
+    margin-left: -90px;
+    margin-top: 70px;
+    
+}
+      h1{
+         background:transparent;
+         font-family: 'IM Fell Double Pica', serif;
+         font-weight:bolder;
+         color: red;
+         opacity: 100%;
+         display: flex;
+         width: 300%;
+         height: 100px;
+         margin-top: -10px; 
+             
+         
+   }
+.section{
+      
+       background: rgb(219, 219, 219);
+   }
+     .articles{
+       background: url('../img/asia-1822520_1920.jpg');
+       flex:2 1 auto;
+       display: flex;
+       flex-flow: row wrap;
+
+   }
+         .article{
+             background:#1f6cb0 ;
+             flex: 1 1 30%;
+            } 
+         
+         .navegador{
+             background:#70a3c4 ;
+             flex: 1 1 100%;
+            }
+    .aside{
+        background: #f73f52 ;
+        flex: 1 1 auto;
+    }
+        .publicitat1{
+            background: #ffea85;
+        }
+        .publicitat2{
+            background: #ffea85;
+        }
+   .footer{
+       background: #000;
+   }
+        .peu{
+            background:#E6AF2E ;
+        }
+@media all and (max-width: 800px){
+    .section {
+        flex-direction: column;
+    }
+}
+
